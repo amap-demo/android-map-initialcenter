@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Android-Map-CenterPoint</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
 </resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+
+    tools:context="amap.android_map_centerpoint.WelcomeActivity">
+
+
+    <TextView
+        android:text="设置显示中心点的城市"
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+    <Button
+        android:text="北京"
+        android:layout_marginTop="30dp"
+
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/bj_button"
+          />
+
+    <Button
+        android:text="广州"
+        android:layout_marginTop="30dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/gz_button"
+         />
+
+    <Button
+        android:text="上海"
+        android:layout_marginTop="30dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sh_button"
+         />
+</LinearLayout>
